@@ -43,3 +43,10 @@ h1{
     gap: 3rem;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 1200px){
+    .utilities{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
