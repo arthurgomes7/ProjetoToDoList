@@ -1,4 +1,7 @@
-let add = document.getElementById = "greenButton";
-function adicionarCompromisso() {
-    document.getElementById = ("titulo").inneText = "Olá meu amor, eu te amo";  
+let body = document.querySelector('body');
+function dark() {
+    body.setAttribute('class', 'darkmode');
+}
+function light(){
+    body.removeAttribute('class', 'darkmode');
 }

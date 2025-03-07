@@ -8,6 +8,12 @@
 </head>
 <body>
     <h1 id="titulo">To Do List</h1>
+    <header>
+        <div class="header_container">
+            <button class="header_items" id="lightButton" onclick="light()">Light</button>
+            <button class="header_items" id="darkButton" onclick="dark()">Dark</button>
+        </div>
+    </header>
     <div class="container">
         <div class="utilities">
             <div class="search_bar">
@@ -17,7 +23,7 @@
             <div class="add_button">
                 <div class="clicksUtilities" id="addButton">
                     <h3>Add</h3>
-                    <button id="greenButton" class = "editItem" onclick="adicionarCompromisso()"><img src="assets/images/" alt="">Image</button>
+                    <button><img src="assets/images/mais.png" alt="lápis" class="images"></button>
                 </div>
             </div>
         </div>
@@ -25,12 +31,23 @@
             <div class="itemsAdd">
                 <p>Item 01</p>
                 <div class="buttonsItems">
-                    <img src="" alt=""><button>IMG</button>
-                    <img src="" alt=""><button>IMG</button>
+                    <button><img src="assets/images/lapis.png" alt="lápis" class="images"></button>
+                    <button><img src="assets/images/remover.png" alt="editar" class="images"></button>
                 </div>
             </div>
             <div class="itemsAdd">
-                <p>Organizar a mochila para faculdade</p>
+                <p>Item 02</p>
+                <div class="buttonsItems">
+                    <button><img src="assets/images/lapis.png" alt="lápis" class="images"></button>
+                    <button><img src="assets/images/remover.png" alt="editar" class="images"></button>
+                </div>
+            </div>
+            <div class="itemsAdd">
+                <p>Item 02</p>
+                <div class="buttonsItems">
+                    <button><img src="assets/images/lapis.png" alt="lápis" class="images"></button>
+                    <button><img src="assets/images/remover.png" alt="editar" class="images"></button>
+                </div>
             </div>
         </div>
     </div>
