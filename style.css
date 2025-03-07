@@ -65,7 +65,7 @@ h1{
     background-color: var(--claro);
     color: var(--preto-transparencia);
     border: none;
-    padding: 0.7rem;
+    padding: 0.4rem;
     align-items: center;
     font-weight: bold;
 }
