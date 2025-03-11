@@ -7,6 +7,10 @@
     --preto: #000;
     --branco: #fff;
     --preto-transparencia: #00000090;
+    /* Cores para temas Dark e light
+    0E0E11
+    000
+    ; */
 }
 * {
     margin: 0;
