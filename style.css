@@ -7,10 +7,7 @@
     --preto: #000;
     --branco: #fff;
     --preto-transparencia: #00000090;
-    /* Cores para temas Dark e light
-    0E0E11
-    000
-    ; */
+    --background-preto: #0E0E11;
 }
 * {
     margin: 0;
@@ -22,7 +19,7 @@ button{
     border: none;
 }
 .darkmode{
-    background-color: var(--preto);
+    background-color: var(--background-preto);
     color: #fff;
 }
 h1{
